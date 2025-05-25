@@ -1,0 +1,17 @@
+intances -> ami -> template -> target group -> load balancer
+
+
+project setup - 
+	security groups (accordingly)
+	instances (Memcached, RabbitMQ, mysql)
+	instance (tomcat app)
+	route 53 interlinking
+	
+	GitHub application -> artifact build -> pushed to s3 -> 
+	tomcat app pe laya -> default se replace kiya 
+	
+	load balancer 
+	
+	autoscaling
+	
+	DNS zones -> godaddy pe CNAME add kiya
